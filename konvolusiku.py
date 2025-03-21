@@ -29,7 +29,7 @@ def konvolusiku(image, kernel):
     return output
 
 # Membaca gambar Lenna.png
-image = cv2.imread('Lenna.png', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('car.jpg', cv2.IMREAD_GRAYSCALE)
 
 # Mendefinisikan Outline Detection Kernel (misalnya Sobel)
 kernel = np.array([[-1, -1, -1],

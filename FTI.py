@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import cv2
 
 # Load the image
-image = cv2.imread('Lenna.png', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('car.jpg', cv2.IMREAD_GRAYSCALE)
 
 # Perform Fourier Transform
 f = np.fft.fft2(image)
